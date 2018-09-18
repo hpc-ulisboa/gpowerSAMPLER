@@ -12,10 +12,10 @@
     this file.
 
     Also, if you use the gpowerSAMPLER tool in a publication, please cite:
-    
-    [1] João Guerreiro, Aleksandar Ilic, Nuno Roma, Pedro Tomás. Multi-kernel Auto-Tuning on GPUS:
-        Performance and Energy-Aware Optimization. 23rd Euromicro International Conference on Parallel
-        and Distributed Network-Based Processing (PDP), 2015.
+
+    [1] João Guerreiro, Aleksandar Ilic, Nuno Roma, Pedro Tomás. GPGPU Power Modelling
+        for Multi-Domain Voltage-Frequency Scaling. 24th IEEE International Symposium on
+        High-Performance Computing Architecture (HPCA), 2018.
 
 2 - CONTACT
 
@@ -36,9 +36,9 @@
 4 - USAGE
 
     Usage:
-        power_measure [-d device_id] [-e] [-t power_level] [-s sample_time_ms] [-f end_time_s] [-w] -a application_to_monitor
-        power_measure -h
-        power_measure -i
+        gpowerSAMPLER [-d device_id] [-e] [-t power_level] [-s sample_time_ms] [-f end_time_s] [-w] -a application_to_monitor
+        gpowerSAMPLER -h
+        gpowerSAMPLER -i
 
     Options:
 
@@ -76,9 +76,9 @@
     of the power consumption over time.
 
 ---------------------------------------------------------------------------------------------------
-[1] João Guerreiro, Aleksandar Ilic, Nuno Roma, Pedro Tomás. Multi-kernel Auto-Tuning on GPUS:
-    Performance and Energy-Aware Optimization. 23rd Euromicro International Conference on Parallel
-    and Distributed Network-Based Processing (PDP), 2015.
+[1] João Guerreiro, Aleksandar Ilic, Nuno Roma, Pedro Tomás. GPGPU Power Modelling
+    for Multi-Domain Voltage-Frequency Scaling. 24th IEEE International Symposium on
+    High-Performance Computing Architecture (HPCA), 2018.
 
 [2] NVIDIA. NVML API Reference Guide, vR331
     http://docs.nvidia.com/deploy/pdf/NVML_API_Reference_Guide.pdf

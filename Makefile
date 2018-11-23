@@ -11,6 +11,7 @@ SRC = power_measure.c
 all:  $(BIN)
 
 $(BIN):
+	mkdir -p $(BIN_DIR)
 	$(CC) $(CFLAGS) -I/usr/local/cuda/include  -I/usr/include/nvidia/gdk/ -L/usr/local/cuda/lib64 -lcudart -lcuda $(SPECIALFLAGS)  -o $(BIN_DIR)/$(BIN) $(SRC_DIR)/$(SRC)
 
 clean:
